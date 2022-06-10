@@ -21,7 +21,6 @@ public class d_basic_Lambda_exersize {
         });
 //java 8 to reverse sort by last name in labda
         Collections.sort(people,(o1,o2)-> o2.getLname().compareTo(o1.getLname()));
-
         //print all list
         printAll(people);
 
